@@ -47,6 +47,8 @@ Build an efficient AI-powered video production workflow. Learn which tools to us
 3. **Do the practice exercises** — that's where the learning happens
 4. **Track your progress** — each course has a learning record to document what you've tried
 
+**📚 [View Interactive Lessons](https://chzheng2017.github.io/good-enough-academy/)** — Click here to access the live course materials with interactive content.
+
 Each course folder contains:
 - `MISSION.md` — why you're learning this and what success looks like
 - `NOTES.md` — learning preferences and tips for getting the most out of the lessons
