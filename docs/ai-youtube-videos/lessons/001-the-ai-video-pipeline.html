@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 001 — The AI-Powered YouTube Video Pipeline</title>
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+
+  <h1>Lesson 001: The AI-Powered YouTube Video Pipeline</h1>
+
+  <div class="lesson-meta">
+    <span>Lesson 1 of the series</span>
+    <span>Estimated time: 20 minutes</span>
+  </div>
+
+  <div class="mission-link">
+    <strong>Mission connection:</strong> Before you can build an efficient AI workflow, you need a map of the entire pipeline — what AI can do at each stage, and which tools are best. This lesson gives you that map.
+  </div>
+
+  <h2>Why This Matters</h2>
+
+  <p>You already know how to make videos. The question isn't <em>how to produce video</em> — it's <em>where AI can 10x your speed</em> without killing quality. The answer isn't "use AI for everything." It's knowing exactly which stages benefit most from AI, which tools to use, and where your human judgment stays essential.</p>
+
+  <p>This lesson maps the complete YouTube video production pipeline, stage by stage, and introduces the AI tools that can accelerate each one. Think of it as your production blueprint — you'll reference it every time you start a new video.</p>
+
+  <h2>The 8-Stage AI Video Pipeline</h2>
+
+  <p>Every YouTube video — whether it's a 60-second Short or a 20-minute deep dive — passes through these stages. Traditional production makes each stage manual. An AI-powered workflow automates the tedious parts while keeping you in creative control.</p>
+
+  <!-- Stage 1 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">1</span> Ideation &amp; Research</h3>
+    <p><strong>What happens:</strong> You figure out what video to make, research the topic, and validate that there's an audience for it.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://chat.openai.com/" class="tool-badge">ChatGPT</a>
+      <a href="https://claude.ai/" class="tool-badge">Claude</a>
+      <a href="https://gemini.google.com/" class="tool-badge">Gemini</a>
+      <a href="https://vidiq.com/" class="tool-badge paid">VidIQ</a>
+    </p>
+    <p><strong>How AI helps:</strong> Brainstorm video angles from a rough topic. Research competing videos. Analyze trending keywords and search volume. Validate whether your idea has audience demand before you invest production time.</p>
+    <p><strong>Your edge:</strong> As an engineer explaining AI experiments, you have a unique angle. Use AI to research what questions people are asking about AI tools — then make videos answering those questions with your hands-on experiments.</p>
+    <div class="callout tip">
+      <div class="callout-title">Tip</div>
+      <p>Try this prompt in ChatGPT or Claude: <code>"I want to make a YouTube video about using AI to [specific daily task]. Give me 10 video title options that would appeal to non-technical viewers, and for each, estimate whether this topic has high or low search interest."</code></p>
+    </div>
+  </div>
+
+  <!-- Stage 2 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">2</span> Scriptwriting</h3>
+    <p><strong>What happens:</strong> You write the script — the words you'll say, the structure of the video, the hooks and transitions.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://chat.openai.com/" class="tool-badge">ChatGPT</a>
+      <a href="https://claude.ai/" class="tool-badge">Claude</a>
+    </p>
+    <p><strong>How AI helps:</strong> Generate first-draft scripts from an outline. Restructure for better pacing. Write hooks that grab attention in the first 5 seconds. Simplify technical explanations for a general audience (critical for your channel's niche).</p>
+    <p><strong>Where human judgment matters most:</strong> AI scripts sound generic unless you inject your voice, your experiments, your opinions. Use AI for structure and first drafts; rewrite for personality.</p>
+    <div class="callout warning">
+      <div class="callout-title">Warning</div>
+      <p>Don't publish AI-generated scripts verbatim. Viewers can detect generic AI writing. The value of your channel is <em>your</em> experiments and <em>your</em> engineer's perspective — AI should amplify that, not replace it.</p>
+    </div>
+  </div>
+
+  <!-- Stage 3 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">3</span> Voiceover &amp; Audio</h3>
+    <p><strong>What happens:</strong> You record (or generate) the voice narration and any background music or sound effects.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://elevenlabs.io/" class="tool-badge paid">ElevenLabs</a>
+      <a href="https://www.descript.com/" class="tool-badge">Descript</a>
+      <a href="https://suno.com/" class="tool-badge">Suno</a>
+    </p>
+    <p><strong>How AI helps:</strong></p>
+    <ul>
+      <li><strong>Voice cloning</strong> (ElevenLabs): Clone your own voice, then generate narration from text. Useful for fixing mistakes without re-recording, or creating multilingual versions.</li>
+      <li><strong>Audio cleanup</strong> (Descript Studio Sound): Remove background noise, enhance voice clarity — one click. Turns a home recording into studio quality.</li>
+      <li><strong>Music generation</strong> (<a href="https://suno.com/">Suno</a>): Create custom background music from a text prompt. 10 free songs/day. Pro plan includes commercial rights and stem export for DAW mixing. <em>Source: <a href="https://suno.com/">suno.com</a></em></li>
+      <li><strong>Filler word removal</strong> (Descript): Automatically removes "um," "uh," "you know" from recordings. <em>Source: <a href="https://www.descript.com/">descript.com</a></em></li>
+    </ul>
+    <div class="callout tip">
+      <div class="callout-title">For your channel</div>
+      <p>Since your content is about AI experiments, using your real voice adds authenticity. Use AI for <em>cleanup and enhancement</em> rather than full voice replacement. Generate custom music with Suno so you never worry about copyright strikes.</p>
+    </div>
+  </div>
+
+  <!-- Stage 4 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">4</span> Video Generation &amp; B-Roll</h3>
+    <p><strong>What happens:</strong> You create the visual footage — screen recordings, talking head, B-roll, animations, and illustrative clips.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://runwayml.com/" class="tool-badge paid">Runway</a>
+      <a href="https://www.heygen.com/" class="tool-badge paid">HeyGen</a>
+      <a href="https://www.synthesia.io/" class="tool-badge paid">Synthesia</a>
+      <a href="https://invideo.io/" class="tool-badge paid">InVideo AI</a>
+    </p>
+    <p><strong>How AI helps:</strong></p>
+    <ul>
+      <li><strong>AI video generation</strong> (<a href="https://runwayml.com/">Runway</a>): Generate short video clips from text or image prompts using Gen-4.5. Good for abstract visualizations, concept illustrations, and B-roll you can't film. <em>Source: <a href="https://runwayml.com/">runwayml.com</a></em></li>
+      <li><strong>AI avatars</strong> (<a href="https://www.heygen.com/">HeyGen</a>): Create a digital twin of yourself that speaks in 175+ languages with accurate lip-sync. Avatar V model rated #1 most realistic on G2. <em>Source: <a href="https://www.heygen.com/">heygen.com</a></em></li>
+      <li><strong>Text-to-video</strong> (<a href="https://invideo.io/">InVideo AI</a>): Agent Two generates complete videos from a prompt — A-roll, B-roll, graphics, transitions. Access to multiple AI models (Seedance 2.5, Veo 3.1, Kling 3). <em>Source: <a href="https://invideo.io/">invideo.io</a></em></li>
+    </ul>
+    <p><strong>Where human judgment matters:</strong> AI-generated footage is improving fast but still has tells. Use it for supplementary visuals, not as your primary content. Your screen recordings of actual AI experiments are your most valuable footage — they're real and unique.</p>
+  </div>
+
+  <!-- Stage 5 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">5</span> Editing</h3>
+    <p><strong>What happens:</strong> You assemble footage, cut for pacing, add transitions, sync audio, and polish the final product.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://www.descript.com/" class="tool-badge">Descript</a>
+      <a href="https://www.adobe.com/products/premiere/ai-video-editing.html" class="tool-badge paid">Premiere Pro AI</a>
+      <a href="https://www.capcut.com/" class="tool-badge free">CapCut</a>
+    </p>
+    <p><strong>How AI helps:</strong></p>
+    <ul>
+      <li><strong>Text-based editing</strong> (<a href="https://www.descript.com/">Descript</a>): Edit video by editing the transcript — delete a sentence, and the video cuts automatically. Remove retakes with one click. Eye contact correction. AI green screen. <em>Source: <a href="https://www.descript.com/">descript.com</a></em></li>
+      <li><strong>AI features in Premiere</strong> (<a href="https://www.adobe.com/products/premiere/ai-video-editing.html">Adobe</a>): Object Mask for isolating subjects, AI-powered color correction, audio enhancement. Professional-grade. <em>Source: <a href="https://www.adobe.com/products/premiere/ai-video-editing.html">adobe.com</a></em></li>
+      <li><strong>Auto editing</strong> (CapCut): Free editor with AI captions, effects, transitions. Popular for short-form content.</li>
+    </ul>
+    <div class="callout tip">
+      <div class="callout-title">Decision point</div>
+      <p><strong>Descript</strong> is the biggest workflow shift — editing video like a Google Doc is fundamentally different from timeline editing. If you're comfortable with Premiere, add its AI features first. If you want a radically faster workflow for talking-head + screen recording content, try Descript.</p>
+    </div>
+  </div>
+
+  <!-- Stage 6 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">6</span> Thumbnails &amp; Visual Assets</h3>
+    <p><strong>What happens:</strong> You create the thumbnail (the single most important factor in click-through rate) and any title cards, lower thirds, or graphics.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://www.midjourney.com/" class="tool-badge paid">Midjourney</a>
+      <a href="https://openai.com/" class="tool-badge">DALL-E / ChatGPT</a>
+      <span class="tool-badge paid">Canva AI</span>
+      <span class="tool-badge paid">Leonardo.ai</span>
+    </p>
+    <p><strong>How AI helps:</strong> Generate eye-catching thumbnail concepts from text prompts. Create multiple variants for A/B testing. Generate custom illustrations and graphics that match your brand style.</p>
+    <p><strong>Important caveat:</strong> The best-performing thumbnails still combine AI-generated backgrounds with real photos of your face showing expressive emotion. Pure AI thumbnails often underperform because they lack the human connection that drives clicks.</p>
+  </div>
+
+  <!-- Stage 7 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">7</span> Captions, SEO &amp; Publishing</h3>
+    <p><strong>What happens:</strong> You add captions/subtitles, optimize title/description/tags for search, and publish.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://www.descript.com/" class="tool-badge">Descript</a>
+      <a href="https://vidiq.com/" class="tool-badge paid">VidIQ</a>
+      <span class="tool-badge paid">TubeBuddy</span>
+      <a href="https://chat.openai.com/" class="tool-badge">ChatGPT</a>
+    </p>
+    <p><strong>How AI helps:</strong></p>
+    <ul>
+      <li><strong>Auto captions</strong> (Descript, CapCut): Generate accurate subtitles with one click. Animated captions for Shorts. <em>Source: <a href="https://www.descript.com/">descript.com</a></em></li>
+      <li><strong>SEO optimization</strong> (VidIQ, TubeBuddy): AI-powered keyword research, title suggestions, description generators, tag optimization.</li>
+      <li><strong>Description &amp; metadata</strong> (ChatGPT/Claude): Generate video descriptions, timestamps, and hashtags from your script.</li>
+    </ul>
+  </div>
+
+  <!-- Stage 8 -->
+  <div class="stage-card">
+    <h3><span class="stage-number">8</span> Repurposing &amp; Distribution</h3>
+    <p><strong>What happens:</strong> You turn one long video into multiple pieces of content — Shorts, TikToks, LinkedIn clips, Twitter threads, blog posts.</p>
+    <p><strong>AI tools:</strong></p>
+    <p>
+      <a href="https://opus.pro/" class="tool-badge">OpusClip</a>
+      <a href="https://www.descript.com/" class="tool-badge">Descript</a>
+      <a href="https://www.heygen.com/" class="tool-badge paid">HeyGen Translation</a>
+    </p>
+    <p><strong>How AI helps:</strong></p>
+    <ul>
+      <li><strong>AI clipping</strong> (<a href="https://opus.pro/">OpusClip</a>): Drop in a YouTube link, get 10+ viral-worthy short clips automatically. ClipAnything model works on any video genre. AI reframe for vertical format, auto captions, social scheduler. Used by 16M+ creators. <em>Source: <a href="https://opus.pro/">opus.pro</a></em></li>
+      <li><strong>Video translation</strong> (<a href="https://www.heygen.com/">HeyGen</a>): Translate your video into 175+ languages with lip-sync in one click. Reach global audiences without reshooting. <em>Source: <a href="https://www.heygen.com/">heygen.com</a></em></li>
+      <li><strong>Clip creation</strong> (Descript): Create clips, reformat for different platforms. <em>Source: <a href="https://www.descript.com/">descript.com</a></em></li>
+    </ul>
+    <div class="callout tip">
+      <div class="callout-title">Multiplier effect</div>
+      <p>This stage is where AI gives the highest ROI. One 15-minute video can become 5-10 Shorts, a blog post, a Twitter thread, and versions in 3 languages — with maybe 30 minutes of extra work. This is how solo creators compete with teams.</p>
+    </div>
+  </div>
+
+  <h2>The Pipeline at a Glance</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Stage</th>
+        <th>Top AI Tools</th>
+        <th>AI Replaces</th>
+        <th>You Still Do</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. Ideation</td>
+        <td>ChatGPT, VidIQ</td>
+        <td>Keyword research, trend analysis</td>
+        <td>Pick the idea you're excited about</td>
+      </tr>
+      <tr>
+        <td>2. Scriptwriting</td>
+        <td>ChatGPT, Claude</td>
+        <td>First draft, structure</td>
+        <td>Add your voice and personality</td>
+      </tr>
+      <tr>
+        <td>3. Audio</td>
+        <td>ElevenLabs, Descript, Suno</td>
+        <td>Noise removal, music, filler words</td>
+        <td>Record your real voice</td>
+      </tr>
+      <tr>
+        <td>4. Video/B-Roll</td>
+        <td>Runway, HeyGen, InVideo</td>
+        <td>B-roll generation, avatars</td>
+        <td>Screen recordings, on-camera</td>
+      </tr>
+      <tr>
+        <td>5. Editing</td>
+        <td>Descript, Premiere AI</td>
+        <td>Rough cut, retake removal</td>
+        <td>Final pacing and creative choices</td>
+      </tr>
+      <tr>
+        <td>6. Thumbnails</td>
+        <td>Midjourney, DALL-E, Canva</td>
+        <td>Background generation, variants</td>
+        <td>Final design with your face</td>
+      </tr>
+      <tr>
+        <td>7. SEO/Publish</td>
+        <td>VidIQ, ChatGPT</td>
+        <td>Keywords, descriptions, tags</td>
+        <td>Final title choice, upload timing</td>
+      </tr>
+      <tr>
+        <td>8. Repurpose</td>
+        <td>OpusClip, HeyGen</td>
+        <td>Clipping, reframing, translation</td>
+        <td>Choose which clips to post</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>What to Do Next: Your First AI-Assisted Video</h2>
+
+  <p>You don't need all 8 stages running on AI to start. Here's the minimum viable AI workflow for your first video:</p>
+
+  <ol>
+    <li><strong>Ideation:</strong> Use ChatGPT/Claude to brainstorm 10 video ideas about "AI experiments in daily life"</li>
+    <li><strong>Script:</strong> Write your script with AI assistance (outline → first draft → your rewrite)</li>
+    <li><strong>Record:</strong> Film yourself + screen record your AI experiment (this is your unique content)</li>
+    <li><strong>Edit:</strong> Try Descript for text-based editing, or use your existing editor + AI audio cleanup</li>
+    <li><strong>Thumbnail:</strong> Generate 3 options with DALL-E or Midjourney, composite with a photo of yourself</li>
+    <li><strong>Publish:</strong> Use ChatGPT to generate the description and tags</li>
+    <li><strong>Repurpose:</strong> Run the published video through OpusClip to get Shorts</li>
+  </ol>
+
+  <p>That's it. Start with this, then layer in more AI tools as you identify bottlenecks in your workflow.</p>
+
+  <!-- Quiz -->
+  <div class="quiz-section">
+    <h2>Check Your Understanding</h2>
+    <p>Test what you've learned. Score: <strong id="quiz-score">0 / 4</strong></p>
+
+    <div class="quiz-question" data-correct="C" data-explanation="OpusClip's ClipAnything model automatically identifies highlight moments and reformats them for vertical platforms.">
+      <p class="q-text">Q1. Which AI tool turns one long YouTube video into multiple short-form clips automatically?</p>
+      <ul class="quiz-options">
+        <li><label><input type="radio" name="q1" value="A"> Runway Gen-4.5 video model</label></li>
+        <li><label><input type="radio" name="q1" value="B"> Descript text-based editor</label></li>
+        <li><label><input type="radio" name="q1" value="C"> OpusClip ClipAnything model</label></li>
+        <li><label><input type="radio" name="q1" value="D"> HeyGen Avatar V system</label></li>
+      </ul>
+      <div class="quiz-feedback"></div>
+      <button class="btn-check">Check Answer</button>
+    </div>
+
+    <div class="quiz-question" data-correct="B" data-explanation="Descript lets you edit video by editing the transcript text — delete a word and the video cuts automatically.">
+      <p class="q-text">Q2. What makes Descript fundamentally different from traditional video editors like Premiere Pro?</p>
+      <ul class="quiz-options">
+        <li><label><input type="radio" name="q2" value="A"> It generates complete videos automatically</label></li>
+        <li><label><input type="radio" name="q2" value="B"> It lets you edit video text</label></li>
+        <li><label><input type="radio" name="q2" value="C"> It creates realistic avatar clones</label></li>
+        <li><label><input type="radio" name="q2" value="D"> It optimizes your YouTube channel SEO</label></li>
+      </ul>
+      <div class="quiz-feedback"></div>
+      <button class="btn-check">Check Answer</button>
+    </div>
+
+    <div class="quiz-question" data-correct="A" data-explanation="Suno generates complete songs — vocals, lyrics, and full production — from a text prompt, with 10 free songs per day.">
+      <p class="q-text">Q3. Which tool generates complete songs with vocals and instruments from a text prompt?</p>
+      <ul class="quiz-options">
+        <li><label><input type="radio" name="q3" value="A"> Suno AI music generation tool</label></li>
+        <li><label><input type="radio" name="q3" value="B"> ElevenLabs voice cloning system</label></li>
+        <li><label><input type="radio" name="q3" value="C"> Descript Studio Sound feature</label></li>
+        <li><label><input type="radio" name="q3" value="D"> Runway creative editing platform</label></li>
+      </ul>
+      <div class="quiz-feedback"></div>
+      <button class="btn-check">Check Answer</button>
+    </div>
+
+    <div class="quiz-question" data-correct="D" data-explanation="Stage 8 (Repurposing) gives the highest ROI because one video becomes 5-10 pieces of content across platforms with minimal extra work.">
+      <p class="q-text">Q4. Which pipeline stage typically gives the highest return on investment from AI automation?</p>
+      <ul class="quiz-options">
+        <li><label><input type="radio" name="q4" value="A"> Scriptwriting with language models</label></li>
+        <li><label><input type="radio" name="q4" value="B"> Thumbnail creation with generators</label></li>
+        <li><label><input type="radio" name="q4" value="C"> Audio cleanup with noise removal</label></li>
+        <li><label><input type="radio" name="q4" value="D"> Repurposing into multiple formats</label></li>
+      </ul>
+      <div class="quiz-feedback"></div>
+      <button class="btn-check">Check Answer</button>
+    </div>
+  </div>
+
+  <!-- Takeaway -->
+  <div class="takeaway">
+    <strong>Key Takeaway:</strong> AI doesn't replace your creative process — it accelerates each stage. The biggest wins come from audio cleanup (Stage 3), text-based editing (Stage 5), and repurposing (Stage 8). Start with these three, then expand.
+  </div>
+
+  <h2>Recommended Reading</h2>
+
+  <p>Your primary source for this topic: <strong><a href="https://www.descript.com/">Descript.com</a></strong> — explore their product page to see text-based editing in action. It's the single tool that most radically changes a traditional editor's workflow, and understanding it will prepare you for Lesson 002.</p>
+
+  <h2>Questions?</h2>
+
+  <p>This lesson is your pipeline map. If anything is unclear — a tool's capabilities, which stage to prioritize, or how to apply this to your specific content — <strong>ask me</strong>. I'm your teacher, and I can dive deeper into any stage or tool. Just say "tell me more about [stage/tool]" or "next lesson."</p>
+
+  <!-- Navigation -->
+  <nav class="lesson-nav">
+    <span>← (This is the first lesson)</span>
+    <a href="002-your-first-ai-video-workflow.html">Lesson 002: Your First AI Video Workflow →</a>
+  </nav>
+
+  <footer>
+    <p>Sources: <a href="https://runwayml.com/">Runway</a> · <a href="https://www.descript.com/">Descript</a> · <a href="https://www.heygen.com/">HeyGen</a> · <a href="https://suno.com/">Suno</a> · <a href="https://www.synthesia.io/">Synthesia</a> · <a href="https://opus.pro/">OpusClip</a> · <a href="https://invideo.io/">InVideo AI</a> · <a href="https://www.adobe.com/products/premiere/ai-video-editing.html">Adobe Premiere Pro</a></p>
+    <p>Part of the <em>AI YouTube Video Production</em> learning workspace.</p>
+  </footer>
+
+  <script src="../assets/quiz.js"></script>
+</body>
+</html>

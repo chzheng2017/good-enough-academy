@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Enough Academy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        .tagline {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+        .philosophy {
+            background: #f8f9ff;
+            padding: 25px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+        .philosophy strong {
+            color: #667eea;
+        }
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        .course-card {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
+        .course-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+            transform: translateY(-4px);
+        }
+        .course-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        .course-card p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .course-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .course-links a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+            text-align: center;
+        }
+        .course-links a:hover {
+            background: #764ba2;
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Good Enough Academy</h1>
+        <p class="tagline">Master a skill in 20 hours, not 10,000</p>
+        
+        <div class="philosophy">
+            <p><strong>The Philosophy:</strong> You don't need 10,000 hours to master a skill. With focused, deliberate practice over just <strong>20 hours</strong>, you can become <em>good enough</em> to outperform 80% of casual practitioners.</p>
+        </div>
+
+        <h2 style="margin-bottom: 25px; color: #333;">Courses</h2>
+        <div class="courses">
+            <div class="course-card">
+                <h2>🎵 Lyric Writing</h2>
+                <p>Learn to write lyrics for pop, rock, and R&B songs. Perfect if you're making music with AI tools and want to move beyond generic AI-generated lyrics.</p>
+                <div class="course-links">
+                    <a href="lyric-writing/lessons/0001-why-ai-lyrics-fall-flat.html">Lesson 1: Why AI Lyrics Fall Flat</a>
+                    <a href="lyric-writing/lessons/0002-show-dont-tell.html">Lesson 2: Show Don't Tell</a>
+                    <a href="lyric-writing/lessons/0003-stability-and-instability.html">Lesson 3: Stability & Instability</a>
+                    <a href="lyric-writing/lessons/0004-rhyme-beyond-the-obvious.html">Lesson 4: Rhyme Beyond the Obvious</a>
+                    <a href="lyric-writing/lessons/0005-writing-your-first-song.html">Lesson 5: Writing Your First Song</a>
+                    <a href="lyric-writing/reference/0001-glossary.html">📚 Glossary</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <h2>🎬 AI YouTube Videos</h2>
+                <p>Build an efficient AI-powered video production workflow. Learn which tools to use at each stage—from scripting to editing, thumbnails, and SEO.</p>
+                <div class="course-links">
+                    <a href="ai-youtube-videos/lessons/001-the-ai-video-pipeline.html">Lesson 1: The AI Video Pipeline</a>
+                    <a href="ai-youtube-videos/lessons/002-your-first-ai-video-workflow.html">Lesson 2: Your First AI Video Workflow</a>
+                    <a href="ai-youtube-videos/reference/ai-video-tools-cheatsheet.html">📚 Tools Cheatsheet</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>📖 <a href="https://github.com/chzheng2017/good-enough-academy">View on GitHub</a> | MIT License</p>
+        </div>
+    </div>
+</body>
+</html>
